@@ -1,0 +1,13 @@
+body {
+	background: #f8d08a; /* Old browsers */
+	background: -moz-linear-gradient(left,  #f8d08a 0%, #f8d08a 10%, #b0ccc0 10%, #b0ccc0 20%, #dbb0b7 20%, #dbb0b7 30%, #fac4b8 30%, #fac4b8 40%, #adc89d 40%, #adc89d 50%, #e1b3b6 50%, #e1b3b6 60%, #f8d08a 60%, #f8d08a 70%, #b0ccc0 70%, #b0ccc0 80%, #dbb0b7 80%, #dbb0b7 90%, #adc89d 90%, #adc89d 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, right top, color-stop(0%,#f8d08a), color-stop(10%,#f8d08a), color-stop(10%,#b0ccc0), color-stop(20%,#b0ccc0), color-stop(20%,#dbb0b7), color-stop(30%,#dbb0b7), color-stop(30%,#fac4b8), color-stop(40%,#fac4b8), color-stop(40%,#adc89d), color-stop(50%,#adc89d), color-stop(50%,#e1b3b6), color-stop(60%,#e1b3b6), color-stop(60%,#f8d08a), color-stop(70%,#f8d08a), color-stop(70%,#b0ccc0), color-stop(80%,#b0ccc0), color-stop(80%,#dbb0b7), color-stop(90%,#dbb0b7), color-stop(90%,#adc89d), color-stop(100%,#adc89d)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(left,  #f8d08a 0%,#f8d08a 10%,#b0ccc0 10%,#b0ccc0 20%,#dbb0b7 20%,#dbb0b7 30%,#fac4b8 30%,#fac4b8 40%,#adc89d 40%,#adc89d 50%,#e1b3b6 50%,#e1b3b6 60%,#f8d08a 60%,#f8d08a 70%,#b0ccc0 70%,#b0ccc0 80%,#dbb0b7 80%,#dbb0b7 90%,#adc89d 90%,#adc89d 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(left,  #f8d08a 0%,#f8d08a 10%,#b0ccc0 10%,#b0ccc0 20%,#dbb0b7 20%,#dbb0b7 30%,#fac4b8 30%,#fac4b8 40%,#adc89d 40%,#adc89d 50%,#e1b3b6 50%,#e1b3b6 60%,#f8d08a 60%,#f8d08a 70%,#b0ccc0 70%,#b0ccc0 80%,#dbb0b7 80%,#dbb0b7 90%,#adc89d 90%,#adc89d 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(left,  #f8d08a 0%,#f8d08a 10%,#b0ccc0 10%,#b0ccc0 20%,#dbb0b7 20%,#dbb0b7 30%,#fac4b8 30%,#fac4b8 40%,#adc89d 40%,#adc89d 50%,#e1b3b6 50%,#e1b3b6 60%,#f8d08a 60%,#f8d08a 70%,#b0ccc0 70%,#b0ccc0 80%,#dbb0b7 80%,#dbb0b7 90%,#adc89d 90%,#adc89d 100%); /* IE10+ */
+	background: linear-gradient(to right,  #f8d08a 0%,#f8d08a 10%,#b0ccc0 10%,#b0ccc0 20%,#dbb0b7 20%,#dbb0b7 30%,#fac4b8 30%,#fac4b8 40%,#adc89d 40%,#adc89d 50%,#e1b3b6 50%,#e1b3b6 60%,#f8d08a 60%,#f8d08a 70%,#b0ccc0 70%,#b0ccc0 80%,#dbb0b7 80%,#dbb0b7 90%,#adc89d 90%,#adc89d 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f8d08a', endColorstr='#adc89d',GradientType=1 ); /* IE6-9 */
+	-webkit-background-size: 35%;
+	-moz-background-size: 35%;
+	background-size: 35%;
+}

@@ -1,0 +1,92 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>Michael Camplin</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+<script type="text/javascript" src="galleriffic.js"></script>
+<script type="text/javascript">
+	// We only want these styles applied when javascript is enabled
+	$('div.navigation').css({'width' : '300px', 'float' : 'left'});
+	$('div.content').css('display', 'block');
+
+	$(document).ready(function() {				
+		// Initialize Minimal Galleriffic Gallery
+		$('#thumbs').galleriffic({
+			imageContainerSel:      '#slideshow',
+			captionContainerSel:    '#caption',
+			controlsContainerSel:   '#controls'
+		});
+	});
+</script>
+<link href="style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+	<div id="container" class="gallery">
+		<a href="index.html" title="Home"><h1>Michael Camplin</h1></a>
+		<ul id="navigation"> 
+			<li><a href="index.html" title="Home">Home</a></li>
+			<li><a href="paintings.html" title="Paintings">Paintings</a></li>
+			<li><a href="bio.html" title="Bio">Bio</a></li>
+			<li><a href="contact.html" title="Contact">Contact</a></li>
+		</ul>
+		<ul id="paintings-nav">
+			<li><a href="series-vegas.html" title="Vegas">Vegas</a></li>
+			<li><a href="series-vampira.html" title="Vampira">Vampira</a></li>
+			<li><a href="series-seaoflove.html" title="Sea Of Love">Sea of Love</a></li>
+			<li><a href="series-otherworks.html" title="Other Works">Other Works</a></li>
+		</ul>
+		<div id="bodyContent">
+			<h3>Paintings</h3>
+			<p>Choose a series from the menu on the left to browse the gallery.</p>
+			<!-- <div id="thumbs">
+				<ul class="thumbs noscript">
+					<li>
+						<a class="thumb" href="images/series-1/call-me-anytime.jpg" title="Call Me Anytime">
+							<img src="images/series-1/t_call-me-anytime.jpg" alt="Call Me Anytime" />
+						</a>
+						<div class="caption">Call Me Anytime</div>
+					</li>
+					<li>
+						<a class="thumb" href="images/series-1/can-I-help-you.jpg" title="Can I Help You">
+							<img src="images/series-1/t_can-I-help-you.jpg" alt="Can I Help You" />
+						</a>
+						<div class="caption">Can I Help You</div>
+					</li>
+					<li>
+						<a class="thumb" href="images/series-1/im-ready-boys.jpg" title="I'm Ready Boys">
+							<img src="images/series-1/t_im-ready-boys.jpg" alt="I'm Ready Boys" />
+						</a>
+						<div class="caption">I'm Ready Boys</div>
+					</li>
+					<li>
+						<a class="thumb" href="images/series-1/tune-in.jpg" title="Tune In">
+							<img src="images/series-1/t_tune-in.jpg" alt="Tune In" />
+						</a>
+						<div class="caption">Tune In</div>
+					</li>
+					<li>
+						<a class="thumb" href="images/series-1/vampira.jpg" title="Vampira">
+							<img src="images/series-1/t_vampira.jpg" alt="Vampira" />
+						</a>
+						<div class="caption">Vampira</div>
+					</li>
+					<li>
+						<a class="thumb" href="images/series-1/you-will-be-mine.jpg" title="You Will Be Mine">
+							<img src="images/series-1/t_you-will-be-mine.jpg" alt="You Will Be Mine" />
+						</a>
+						<div class="caption">You Will Be Mine</div>
+					</li>
+				</ul>
+			</div>
+			<div id="slideshow"></div>
+			<div id="controls"></div>
+			<div id="loading"></div>
+			<div id="caption"></div> -->
+			
+		</div>		
+	</div>
+</body>
+</html>
