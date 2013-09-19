@@ -1,3 +1,99 @@
+/**
+ * html5doctor.com Reset Stylesheet v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/)
+ * Richard Clark (http://richclarkdesign.com)
+ * http://cssreset.com
+ */
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+body {
+    line-height:1;
+}
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+nav ul {
+    list-style:none;
+}
+blockquote, q {
+    quotes:none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+img {
+	height: 100%;
+	width: 100%;
+}
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+del {
+    text-decoration: line-through;
+}
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+input, select {
+    vertical-align:middle;
+}
+
+/**
+ * Begin Michael Camplin site styling
+ * Jason Cole
+ * http://jasonpcole.com
+ */
 body {
 	background: #f8d08a; /* Old browsers */
 	background: -moz-linear-gradient(left,  #f8d08a 0%, #f8d08a 10%, #b0ccc0 10%, #b0ccc0 20%, #dbb0b7 20%, #dbb0b7 30%, #fac4b8 30%, #fac4b8 40%, #adc89d 40%, #adc89d 50%, #e1b3b6 50%, #e1b3b6 60%, #f8d08a 60%, #f8d08a 70%, #b0ccc0 70%, #b0ccc0 80%, #dbb0b7 80%, #dbb0b7 90%, #adc89d 90%, #adc89d 100%); /* FF3.6+ */
@@ -10,4 +106,59 @@ body {
 	-webkit-background-size: 35%;
 	-moz-background-size: 35%;
 	background-size: 35%;
+}
+nav ul {
+	display: block;
+	margin: 1em auto;
+}
+nav ul li {
+	text-align: center;
+}
+nav ul li a {
+	color: #17534e;
+	font: bold 14px arial, helvetica, sans-serif;
+	padding: .5em 1em;
+}
+nav ul li a:hover {
+	background-color: rgba(255,255,255,0.6);
+	border-radius: .5em;
+	text-decoration: none;
+}
+.img-wrapper {
+	display: block;
+	margin: 0 auto;
+	width: 60%;
+}
+#index .img-wrapper img + img {
+	display: block;
+	margin: 0 auto;
+	width: 70%;
+}
+#home .img-wrapper img + img {
+	margin: 1em 0;
+}
+#paintings .tabbable {
+	margin: 1em 0;
+}
+#paintings .tabbable .tab-content {
+	background-color: rgba(255,255,255,0.8);
+	overflow: visible;
+	padding: 1em;
+}
+#paintings .tab-pane li img {
+	margin: 0 auto;
+	width: 95%;
+}
+#paintings .tab-pane li img:hover {
+	cursor: pointer;
+}
+#bio h2,
+#bio p{
+	padding: .5em 1em;
+}
+#contact h2 {
+	padding: .5em 0 .5em 1.2em;
+}
+#contact p {
+	padding: .5em 0;
 }
